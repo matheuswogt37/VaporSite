@@ -1,0 +1,57 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre o Vapor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body class="bg-[#F7EBE8] text-[#1E1E24]">
+  <!-- Navbar -->
+  <nav class="bg-[#444140] text-white p-4">
+    <div class="flex justify-center items-center">
+      <a href="index.html">
+        <img src="./img/logo.svg" alt="Vapor Logo" class="h-8 w-8 mr-4" />
+      </a>
+      <ul class="flex gap-8">
+        <li><a href="index.html" class="hover:underline">Home</a></li>
+        <li><a href="about.html" class="hover:underline">Sobre</a></li>
+        <li><a href="photos.html" class="hover:underline">Fotos</a></li>
+        <li><a href="download.html" class="hover:underline">Download</a></li>
+        <li><a href="log.html" class="hover:underline">Log</a></li>
+        <li><a href="contact.html" class="hover:underline">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Conteúdo principal -->
+  <main class="p-8 max-w-3xl mx-auto">
+    <h1 class="text-4xl font-bold text-[#E54B4B] text-center">Tecnicamente o que é Vapor?</h1>
+    <p class="mt-6 text-lg">
+      Peer-to-peer (P2P) é uma arquitetura de rede descentralizada na qual os participantes, chamados peers, interagem diretamente entre si sem a necessidade de uma autoridade central ou servidor. Cada peer atua como cliente e servidor, permitindo que compartilhem recursos e serviços diretamente com outros peers. Para começar a compartilhar recursos, o peer precisa criar um link magnético; esse link contém todas as informações necessárias para iniciar o download dos arquivos diretamente dos peers. Criar um link é inútil; para que outros peers participem, eles precisarão do link magnético. </br>
+      O link magnético é normalmente compartilhado por sites como The Pirate Bay, 1337X, nyaa.si, YoutBittorrent, Limetorrents e outros. Todos eles apresentam sérios problemas, como dificuldade de busca, muitos anúncios, links falsos e descrições curtas. </br>
+      Os dados de compartilhamento P2P nunca foram fáceis de criar e compartilhar com outras pessoas. A criação do link magnético é difícil e extensa, e a maioria das pessoas não sabe como fazê-lo. Para compartilhar este link magnético, existem muitas opções, mas nem todos acessarão o mesmo site. Há uma falta de centralização. Alguns sites possuem um mecanismo de busca, mas todos se concentram em apenas uma mídia. </br>
+      Este projeto visa desenvolver uma API e um Cliente para uma aplicação desktop. A API visa centralizar todos os links, gerenciá-los e facilitar sua disponibilização para diversos dispositivos. O Cliente consumirá a API, mas trará muitas outras funcionalidades, como: integrações com o Qbit para criar e baixar arquivos; ajuda na busca avançada; e adição de alguns utilitários que podem eventualmente ajudar o usuário.
+    </p>
+    <p class="mt-4 text-lg">
+      O projeto é desenvolvido por pessoas que apoiam softwares livres.
+    </p>
+    <div id="github_repository">
+      <div class="mt-8 text-center">
+        <a href="https://github.com/SrPatsu21/VaporAPI" target="_blank" class="bg-[#E54B4B] text-white px-4 py-2 rounded shadow hover:bg-[#c43e3e]">Repositório da API</a>
+      </div>
+      <div class="mt-8 text-center">
+        <a href="https://github.com/SrPatsu21/VaporClient" target="_blank" class="bg-[#E54B4B] text-white px-4 py-2 rounded shadow hover:bg-[#c43e3e]">Repositório do Client</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Ícone de contato fixo -->
+  <a href="mailto:vaporofficial2k24@gmail.com" class="fixed bottom-4 right-4 bg-[#E54B4B] p-3 rounded-full shadow-lg hover:bg-[#c43e3e]">
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" class="w-6 h-6" />
+  </a>
+</body>
+</html>

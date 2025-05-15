@@ -1,0 +1,65 @@
+<!-- log.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Log de Atualizações - Vapor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body class="bg-[#F7EBE8] text-[#1E1E24]">
+  <!-- Navbar -->
+  <nav class="bg-[#444140] text-white p-4">
+    <div class="flex justify-center items-center">
+      <a href="index.html">
+        <img src="./img/logo.svg" alt="Vapor Logo" class="h-8 w-8 mr-4" />
+      </a>
+      <ul class="flex gap-8">
+        <li><a href="index.html" class="hover:underline">Home</a></li>
+        <li><a href="about.html" class="hover:underline">Sobre</a></li>
+        <li><a href="photos.html" class="hover:underline">Fotos</a></li>
+        <li><a href="download.html" class="hover:underline">Download</a></li>
+        <li><a href="log.html" class="hover:underline">Log</a></li>
+        <li><a href="contact.html" class="hover:underline">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Conteúdo principal -->
+  <main class="p-8 max-w-3xl mx-auto">
+    <h1 class="text-4xl font-bold text-[#E54B4B] text-center mb-8">Histórico de Atualizações</h1>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-[#1E1E24]">Versão 1.2.0 <span class="text-sm text-gray-500">(01/05/2025)</span></h2>
+      <ul class="list-disc list-inside ml-4 mt-2">
+        <li>Nova interface de usuário com tema escuro.</li>
+        <li>Melhoria no desempenho do carregamento inicial.</li>
+        <li>Correção de bugs menores no sistema de login.</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-[#1E1E24]">Versão 1.1.0 <span class="text-sm text-gray-500">(20/03/2025)</span></h2>
+      <ul class="list-disc list-inside ml-4 mt-2">
+        <li>Adicionado suporte para múltiplos idiomas.</li>
+        <li>Implementado sistema de notificações.</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-[#1E1E24]">Versão 1.0.0 <span class="text-sm text-gray-500">(05/01/2025)</span></h2>
+      <ul class="list-disc list-inside ml-4 mt-2">
+        <li>Lançamento inicial do Vapor com funcionalidades básicas.</li>
+        <li>Cadastro, login, dashboard e exportação de dados disponíveis.</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Ícone de contato fixo -->
+  <a href="mailto:vaporofficial2k24@gmail.com" class="fixed bottom-4 right-4 bg-[#E54B4B] p-3 rounded-full shadow-lg hover:bg-[#c43e3e]">
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" class="w-6 h-6" />
+  </a>
+</body>
+</html>
